@@ -26,11 +26,15 @@ img {
   text-decoration: none;
   color: #000000;
   border: solid 3px #67c5ff;
-  border-radius: 5px;
+  border-radius: 12px;
   transition: .4s;
   font-size: 25px ;
   background-color: white ;
   margin-bottom:5px;
+}
+
+.caption {
+  font-weight:bold;
 }
 
 .choice1 , .choice2 , .choices {
@@ -55,11 +59,15 @@ img {
   background-color: white ;
 }
 
+.under {
+  border-bottom: dashed 2px #87CEFA
+}
+
 .tips_box {
   padding:0 2%;
   width:90%;
   margin:0 3%;
-
+ 
   border: solid 2px green;
   border-radius : 10px;
 }
@@ -99,7 +107,7 @@ img {
 }
 
 .tips {
-  font-family:'Hiragino Maru Gothic ProN';
+  font-family:'Osaka-Mono';
   font: bold ;
   font-size: 20px ;
 }
