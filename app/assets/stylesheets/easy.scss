@@ -1,6 +1,6 @@
 
-*{
-  font-family: 'Hiragino Maru Gothic ProN' ;
+#question_answer {
+  font-family: 'arial' ;
   color: black ;
 }
 
@@ -17,6 +17,7 @@ img {
 }
 
 @mixin choices {
+  font-family: 'arial' ;
   cursor: pointer;
   width: 100% ;
   text-align: center;
@@ -87,7 +88,14 @@ img {
   margin: 0 auto;
 }
 
+.tips_box {
+  /*padding:0 10%;*/
+  border: solid 2px green;
+  border-radius:10px;
+}
+
 .tips {
+  font-family:'Hiragino Maru Gothic ProN';
   font: bold ;
   font-size: 20px ;
 }
