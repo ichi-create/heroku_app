@@ -12,6 +12,7 @@ img {
   display: block;
  margin-left: auto;
  margin-right: auto;
+ margin-bottom:5px;
   max-width: 800px ;
   width: 100% ;
 }
@@ -19,8 +20,7 @@ img {
 @mixin choices {
   font-family: 'arial' ;
   cursor: pointer;
-  width: 100% ;
-  text-align: center;
+  width: 100% ; 
   display: inline-block;
   padding: 0.3em 1em;
   text-decoration: none;
@@ -30,6 +30,7 @@ img {
   transition: .4s;
   font-size: 25px ;
   background-color: white ;
+  margin-bottom:5px;
 }
 
 .choice1 , .choice2 , .choices {
@@ -41,10 +42,10 @@ img {
 }
 .next {
   cursor: pointer;
-  width: 100% ;
+  width: 90% ;
   text-align: center;
+  margin-left:5%;
   display: inline-block;
-  padding: 0.3em 1em;
   text-decoration: none;
   color: #000000;
   border: solid 3px #67c5ff;
@@ -90,6 +91,8 @@ img {
 
 .tips_box {
   /*padding:0 10%;*/
+  width:90%;
+  margin-left:5%;
   border: solid 2px green;
   border-radius : 10px;
 }
@@ -117,14 +120,19 @@ img {
   display: none ;
 }
 
-.q2 {
-  display: none;
+.q1 {
+  width:90%;
+  margin-left:5%;
 }
 
-.q3 , .q_s{
+.q_s{
   display: none;
+  width:90%;
+  margin-left:5%;
 }
 
 .answers {
   display: none;
+  width:90%;
+  margin:5%;
 }
