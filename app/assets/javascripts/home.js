@@ -1,3 +1,3 @@
-$("#button").click(function() {
+$(".easy").click(function() {
     window.location.href = '/';
 });
