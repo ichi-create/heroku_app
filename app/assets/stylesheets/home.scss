@@ -15,7 +15,7 @@
   padding-bottom: 60px;
 }
 .difficult {
-    height:30%;                  /* 高さ指定 */
+    height: 30%;                  /* 高さ指定 */
     width: 50%;
     margin: 0 auto;
     text-align: center;
@@ -104,4 +104,8 @@ footer  {
   background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.easy_check {
+  border:solid 2px black;
 }
