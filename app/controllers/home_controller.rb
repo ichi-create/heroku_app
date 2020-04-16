@@ -11,4 +11,7 @@ class HomeController < ApplicationController
 
   def difficult
   end
+  
+  def result
+  end
 end
