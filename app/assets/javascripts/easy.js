@@ -6,12 +6,22 @@ $(function(){
 
     if (answer === "q1_2") {
       $('.q1').hide(1000);
+      $('.oorx_c1').show();
+      var correct = function(){
+      $('.oorx_c1').hide(1000);
       $('.answer1_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer1_o'
       score ++
       }else {
         $('.q1').hide(1000);
-        $('.answer1_x').show();
+        $('.oorx_i1').show();
+      var correct = function(){
+      $('.oorx_i1').hide(1000);
+      $('.answer1_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer1_x'
     }
   });
@@ -29,12 +39,22 @@ $(function(){
 
     if (answer === "q2_2") {
       $('.q2').hide(1000);
+      $('.oorx_c2').show();
+      var correct = function(){
+      $('.oorx_c2').hide(1000);
       $('.answer2_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer2_o'
       score ++
       }else {
         $('.q2').hide(1000);
+        $('.oorx_i2').show();
+      var correct = function(){
+      $('.oorx_i2').hide(1000);
         $('.answer2_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer2_x'
     }
   });
@@ -47,17 +67,28 @@ $(function(){
       $('.q3').show();
     }
   });
+  
   $('.choice3').click(function(){
     var answer = $(this).attr('id');
 
     if (answer === "q3_4") {
       $('.q3').hide(1000);
+      $('.oorx_c3').show();
+      var correct = function(){
+      $('.oorx_c3').hide(1000);
       $('.answer3_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer3_o'
       score ++
       }else {
         $('.q3').hide(1000);
+         $('.oorx_i3').show();
+      var correct = function(){
+      $('.oorx_i3').hide(1000);
         $('.answer3_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer3_x'
     }
   });
@@ -75,12 +106,22 @@ $(function(){
 
     if (answer === "q4_3") {
       $('.q4').hide(1000);
+      $('.oorx_c4').show();
+      var correct = function(){
+      $('.oorx_c4').hide(1000);
       $('.answer4_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer4_o'
       score ++
       }else {
         $('.q4').hide(1000);
+         $('.oorx_i4').show();
+      var correct = function(){
+      $('.oorx_i4').hide(1000);
         $('.answer4_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer4_x'
     }
   });
@@ -98,12 +139,22 @@ $(function(){
 
     if (answer === "q5_2") {
       $('.q5').hide(1000);
+      $('.oorx_c5').show();
+      var correct = function(){
+      $('.oorx_c5').hide(1000);
       $('.answer5_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer5_o'
       score ++
       }else {
         $('.q5').hide(1000);
+         $('.oorx_i5').show();
+      var correct = function(){
+      $('.oorx_i5').hide(1000);
         $('.answer5_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer5_x'
     }
   });
@@ -121,12 +172,22 @@ $(function(){
 
     if (answer === "q6_2") {
       $('.q6').hide(1000);
+      $('.oorx_c6').show();
+      var correct = function(){
+      $('.oorx_c6').hide(1000);
       $('.answer6_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer6_o'
       score ++
       }else {
         $('.q6').hide(1000);
+        $('.oorx_i6').show();
+      var correct = function(){
+      $('.oorx_i6').hide(1000);
         $('.answer6_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer6_x'
     }
   });
@@ -144,12 +205,22 @@ $(function(){
 
     if (answer === "q7_1") {
       $('.q7').hide(1000);
+      $('.oorx_c7').show();
+      var correct = function(){
+      $('.oorx_c7').hide(1000);
       $('.answer7_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer7_o'
       score ++
       }else {
         $('.q7').hide(1000);
+         $('.oorx_i7').show();
+      var correct = function(){
+      $('.oorx_i7').hide(1000);
         $('.answer7_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer7_x'
     }
   });
@@ -167,12 +238,22 @@ $(function(){
 
     if (answer === "q8_4") {
       $('.q8').hide(1000);
+      $('.oorx_c8').show();
+      var correct = function(){
+      $('.oorx_c8').hide(1000);
       $('.answer8_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer8_o'
       score ++
       }else {
         $('.q8').hide(1000);
+         $('.oorx_i8').show();
+      var correct = function(){
+      $('.oorx_i8').hide(1000);
         $('.answer8_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer8_x'
     }
   });
@@ -190,12 +271,22 @@ $(function(){
 
     if (answer === "q9_3") {
       $('.q9').hide(1000);
+      $('.oorx_c9').show();
+      var correct = function(){
+      $('.oorx_c9').hide(1000);
       $('.answer9_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer9_o'
       score ++
       }else {
         $('.q9').hide(1000);
+         $('.oorx_i9').show();
+      var correct = function(){
+      $('.oorx_i9').hide(1000);
         $('.answer9_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer9_x'
     }
   });
@@ -213,12 +304,22 @@ $(function(){
 
     if (answer === "q10_3") {
       $('.q10').hide(1000);
+      $('.oorx_c10').show();
+      var correct = function(){
+      $('.oorx_c10').hide(1000);
       $('.answer10_o').show();
+      }
+      setTimeout(correct , 2000);
       show = '.answer10_o'
       score ++
       }else {
         $('.q10').hide(1000);
+         $('.oorx_i10').show();
+      var correct = function(){
+      $('.oorx_i10').hide(1000);
         $('.answer10_x').show();
+      }
+      setTimeout(correct , 2000);
         show = '.answer10_x'
     }
   });

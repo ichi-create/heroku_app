@@ -6,14 +6,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>美術知識クイズ　かんたん</title>
-  <link rel="stylesheet" href="easy.scss">
+  <link rel=”stylesheet” href=”easy.scss” />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <%= javascript_include_tag 'easy.js' %>
+  <%= javascript_include_tag 'easy' %>
+  <%= stylesheet_link_tag 'easy' %>
 </head>
 
 <div class="q1">
   <h1 id="question_title">この作品の作者は？</h1>
-    <img src="https://images.nga.gov/?service=asset&action=show_preview&asset=149207" >
+    <img class="q_img" src="https://images.nga.gov/?service=asset&action=show_preview&asset=149207" >
     <div class="questionbox_1">
       <button type="button" id="q1_1" class="choice1 choices">モネ</button>
       <button type="button" id="q1_2" class="choice1 choices">ゴッホ</button>
@@ -22,15 +23,17 @@
     </div>
 </div>
 
+
+   <h1 class="oorx_c oorx_c1 oorx">正<br>解！</h1>
 <div class="answer1_o answers">
-   <h1 class="oorx">正解！</h1>
-   <img src="https://images.nga.gov/?service=asset&action=show_preview&asset=149207" >
+  <h1 class="inoorx">正解！</h1>
+   <img class="a_img" src="https://images.nga.gov/?service=asset&action=show_preview&asset=149207" >
    <p class="qoute">National Gallery of art より</p>
-   <h2>答えはゴッホです！</h2>
    <div class="tips_box">
-     <p><span class="caption">作家名</span><br>
-     ヴィンセント・ヴァン・ゴッホ<br>
-     [1853年 - 1890年]</p>
+     <div class="namewrap">
+     <p><span class="namedate">
+     <span class="name">ヴィンセント・</span><span class="name">ヴァン・</span><span class="name">ゴッホ</span><br>
+     [1853年 - 1890年]</span></p></div>
      <p><span class="caption">出身地</span><br>
      オランダ🇳🇱</p>
      <p><span class="caption">タイトル</span><br>
@@ -44,16 +47,18 @@
     <h2 class="next1 next">次の問題へ</h2>
 </div>
 
-<div class="answer1_x answers">
-  <h1 class="oorx">不正解!</h1>
-  <img src="https://images.nga.gov/?service=asset&action=show_preview&asset=149207" >
+
+  <h1 class="oorx_i oorx_i1 oorx">不<br>正<br>解!</h1>
+  <div class="answer1_x answers">
+    <h1 class="inoorx">不正解！</h1>
+  <img class="a_img" src="https://images.nga.gov/?service=asset&action=show_preview&asset=149207" >
   <p class="qoute">National Gallery of art より</p>
-  <h2>答えはゴッホです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  ヴィンセント・ヴァン・ゴッホ<br>
-  [1853年 - 1890年]</p>
+  <p><div class="namewrap">
+     <p><span class="namedate">
+     <span class="name">ヴィンセント・</span><span class="name">ヴァン・</span><span class="name">ゴッホ</span><br>
+     [1853年 - 1890年]</span></p></div></p>
   <p><span class="caption">出身地</span><br>
   オランダ🇳🇱</p>
   <p><span class="caption">タイトル</span><br>
@@ -62,7 +67,7 @@
   1889年</p>
   <p><span class="caption">素材</span><br>
   キャンバスに油絵具🎨</p>
-  <p><span class="tips">Tips💡</span><br>オランダ人名のvanはミドルネームではなく姓の一部であるために省略しません。英語の読みでビンセント・バン・ゴッホ(実際には「ホ」は発音されたとしても非常に弱く「ゴー」と表記する方が音に近い)とも読まれるそう👀</p>
+  <p><span class="tips">Tips💡</span><br><span class="under">オランダ人名のvanはミドルネームではなく姓の一部であるために省略しません。英語の読みでビンセント・バン・ゴッホ(実際には「ホ」は発音されたとしても非常に弱く「ゴー」と表記する方が音に近い)とも読まれるそう👀</span></p>
   </div>
   
   <h2 class="next1 next">次の問題へ</h2>
@@ -70,51 +75,54 @@
 
 <div class="q2 q_s">
   <h1 id="question_title">この作品の作者は？</h1>
-    <img src="http://www.haring.com/!/wp-content/uploads/2012/12/editions86_p74b.jpg" >
+    <img class="q_img" src="http://www.haring.com/!/wp-content/uploads/2012/12/editions86_p74b.jpg" >
 
     <button type="button" id="q2_1" class="choice2 choices">中居正広</button>
     <button type="button" id="q2_2" class="choice2 choices">キース・ヘリング</button>
     <button type="button" id="q2_3" class="choice2 choices">しりあがり寿</button>
     <button type="button" id="q2_4" class="choice2 choices">アンディ・ウォーホル</button>
 </div>
-
+<h1 class="oorx_c oorx_c2 oorx">正<br>解！</h1>
 <div class="answer2_o answers">
-  <h1 class="oorx">正解！</h1>
-  <img src="http://www.haring.com/!/wp-content/uploads/2012/12/editions86_p74b.jpg" >
+  <h1 class="inoorx">正解！</h1>
+  <img class="a_img" src="http://www.haring.com/!/wp-content/uploads/2012/12/editions86_p74b.jpg" >
   <p class="qoute">引用：<a href="http://www.haring.com/">The Keith haring Foundation</a></p>
-  <h2>答えはキース・ヘリングです！</h2>
   
   <div class="tips_box">
+    <div class="namewrap">
+  <p><span class="namedate">
+  キース・ヘリング</span><br>
+  [1958年 - 1990年]</p>
+  </div>
   <p><span class="caption">出身地</span><br>
   アメリカ🇺🇸</p>
-  <p><span class="caption">作家名</span><br>
-  キース・ヘリング<br>
-  [1958年 - 1990年]</p>
   <p><span class="caption">タイトル</span><br>
   untitled</p>
   <p><span class="caption">制作年</span><br>
   1987年</p>
   <p><span class="caption">画法</span><br>
   リトグラフ(石版画)</p>
-  <p>T<span class="tips">Tips💡</span><br>キース・ヘリングはグラフィティアート(落書き)のアーティスト。
-    <br>AIDs🚑やLGBT🏳️‍🌈のテーマを扱った作品が多い。
-    <br>自身も88年にエイズ感染の診断を受けその翌年、恵まれない子供たちへの基金やHIV・エイズ予防啓発運動継続のため、キースへリング財団を設立しました。
+  <p>T<span class="tips">Tips💡</span><br><span class="under">キース・ヘリングはグラフィティアート(落書き)のアーティスト。
+    <br>AIDs🚑やLGBT🏳️‍🌈のテーマを扱った作品が多くあります。
+    <br>自身も88年にエイズ感染の診断を受けその翌年、恵まれない子供たちへの基金やHIV・エイズ予防啓発運動継続のため、キースへリング財団を設立しました。</span>
   </p>
   </div>
   
   <h2 class="next2 next">次の問題へ</h2>
 </div>
 
+<h1 class="oorx_i oorx_i2 oorx">不<br>正<br>解!</h1>
 <div class="answer2_x answers">
-  <h1 class="oorx">不正解！</h1>
-  <img src="http://www.haring.com/!/wp-content/uploads/2012/12/editions86_p74b.jpg" >
+  <h1 class="inoorx">不正解！</h1>
+  <img class="a_img" src="http://www.haring.com/!/wp-content/uploads/2012/12/editions86_p74b.jpg" >
   <p class="qoute">引用：<a href="http://www.haring.com/">The Keith haring Foundation</a></p>
-  <h2>答えはキース・ヘリングです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  キース・ヘリング<br>
-  [1958年 - 1990年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">キース・ヘリング<br>
+  [1958年 - 1990年]</span></p>
+  </div>
+  
   <p><span class="caption">出身地</span><br>
   アメリカ🇺🇸</p>
   <p><span class="caption">タイトル</span><br>
@@ -123,10 +131,10 @@
   1987年</p>
   <p><span class="caption">画法</span><br>
   リトグラフ(石版画)</p>
-  <p><span class="tips">Tips💡</span><br>
+  <p><span class="tips">Tips💡</span><br><span class="under">
   グラフィティアート(落書き)のアーティスト。
-    <br>AIDs⛑やLGBTQ+🏳️‍🌈のテーマを扱った作品が多い。
-    <br>自身も88年にエイズ感染の診断を受けその翌年、恵まれない子供たちへの基金やHIV・エイズ予防啓発運動継続のため、キースへリング財団を設立しました。
+    <br>AIDs⛑やLGBTQ+🏳️‍🌈のテーマを扱った作品が多くあります。
+    <br>自身も88年にエイズ感染の診断を受けその翌年、恵まれない子供たちへの基金やHIV・エイズ予防啓発運動継続のため、キースへリング財団を設立しました。</span>
   </p>
   </div>
   
@@ -135,7 +143,7 @@
 
 <div class="q3 q_s">
   <h1 id="question_title">この作品の作者は？</h1>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%27David%27_by_Michelangelo_JBU0001.JPG/250px-%27David%27_by_Michelangelo_JBU0001.JPG" >
+    <img class="q_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%27David%27_by_Michelangelo_JBU0001.JPG/250px-%27David%27_by_Michelangelo_JBU0001.JPG" >
 
     <button type="button" id="q3_1" class="choice3 choices">ゴーギャン</button>
     <button type="button" id="q3_2" class="choice3 choices">クリスチャン・ロナウド</button>
@@ -143,16 +151,19 @@
     <button type="button" id="q3_4" class="choice3 choices">ミケランジェロ</button>
 </div>
 
+  <h1 class="oorx_c oorx_c3 oorx">正<br>解！</h1>
 <div class="answer3_o answers">
-  <h1 class="oorx">正解！</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%27David%27_by_Michelangelo_JBU0001.JPG/250px-%27David%27_by_Michelangelo_JBU0001.JPG" >
+  <h1 class="inoorx">正解！</h1>
+  <img class="a_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%27David%27_by_Michelangelo_JBU0001.JPG/250px-%27David%27_by_Michelangelo_JBU0001.JPG" >
   <p class="qoute">引用：<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%27David%27_by_Michelangelo_JBU0001.JPG/250px-%27David%27_by_Michelangelo_JBU0001.JPG"> wikipedia</a></p>
-  <h2>答えはミケランジェロです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  ミケランジェロ・ブオナローティ<br>
-  [1475年 - 1564年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">
+  <span class="name">ミケランジェロ・</span><span class="name">ブオナローティ</span><br>
+  [1475年 - 1564年]</span></p>
+  </div>
+  
   <p><span class="caption">出身地</span><br>
   イタリア🇮🇹</p>
   <p><span class="caption">タイトル</span><br>
@@ -161,25 +172,28 @@
   504年</p>
   <p><span class="caption">素材</span><br>
   大理石</p>
-  <p><span class="tips">Tips💡</span><br>
+  <p><span class="tips">Tips💡</span><br><span class="under">
   ピエタと並ぶミケランジェロの代表作✨<br>
-    ルネサンス期を通じて最も卓越した作品の一つです🤩
+    ルネサンス期を通じて最も卓越した作品の一つです🤩</span>
   </p>
   </div>
   
   <h2 class="next3 next">次の問題へ</h2>
 </div>
 
+<h1 class="oorx_i oorx_i3 oorx">不<br>正<br>解!</h1>
 <div class="answer3_x answers">
-  <h1 class="oorx">不正解！</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%27David%27_by_Michelangelo_JBU0001.JPG/250px-%27David%27_by_Michelangelo_JBU0001.JPG" >
+  <h1 class="inoorx">不正解！</h1>
+  <img class="a_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%27David%27_by_Michelangelo_JBU0001.JPG/250px-%27David%27_by_Michelangelo_JBU0001.JPG" >
   <p class="qoute">引用：<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%27David%27_by_Michelangelo_JBU0001.JPG/250px-%27David%27_by_Michelangelo_JBU0001.JPG"> wikipedia</a></p>
-  <h2>答えはミケランジェロです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  ミケランジェロ・ブオナローティ<br>
-  [1475年 - 1564年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">
+  <span class="name">ミケランジェロ・<span class="name">ブオナローティ<br>
+  [1475年 - 1564年]</span></p>
+  
+  </div>
   <p><span class="caption">出身地</span><br>
   イタリア🇮🇹</p>
   <p><span class="caption">タイトル</span><br>
@@ -188,9 +202,9 @@
   1504年</p>
   <p><span class="caption">素材</span><br>
   大理石</p>
-  <p>Tips<br>
-  ピエタと並ぶミケランジェロの代表作✨<br>
-    ルネサンス期を通じて最も卓越した作品の一つです🤩
+  <p>Tips💡<br>
+  <span class="under">ピエタと並ぶミケランジェロの代表作✨<br>
+    ルネサンス期を通じて最も卓越した作品の一つです🤩</span>
   </p>
   </div>
   
@@ -199,7 +213,7 @@
 
 <div class="q4 q_s">
 <h1 id="question_title">この作品の作者は？</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" >
+  <img class="q_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" >
 
   <button type="button" id="q4_1" class="choice4 choices">ボッティチェリ</button>
   <button type="button" id="q4_2" class="choice4 choices">ラファエロ</button>
@@ -207,16 +221,19 @@
   <button type="button" id="q4_4" class="choice4 choices">フランシス・ベーコン</button>
 </div>
 
+  <h1 class="oorx_c oorx_c4 oorx">正<br>解！</h1>
 <div class="answer4_o answers">
-  <h1 class="oorx">正解！</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" >
+  <h1 class="inoorx">正解！</h1>
+  <img class="a_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" >
   <p class="qoute">引用：<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"> wikipedia</a></p>
-  <h2>答えはレオナルド・ダ・ヴィンチです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  レオナルド・ダ・ヴィンチ<br>
-  [1452年 - 1519年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">
+  <span class="name">レオナルド・ダ・</span><span class="name">ヴィンチ</span><br>
+  [1452年 - 1519年]</span></p>
+  </div>
+  
   <p><span class="caption">出身地</span><br>
   イタリア🇮🇹</p>
   <p><span class="caption">タイトル</span><br>
@@ -225,24 +242,27 @@
   1503年 ~ 1506年</p>
   <p><span class="caption">画法</span><br>
   油彩🎨</p>
-  <p><span class="tips">Tips💡</span><br>
-  「世界でもっとも知られた、もっとも見られた、もっとも書かれた、もっとも歌われた、もっともパロディ作品が作られた美術作品」といわれています💃
+  <p><span class="tips">Tips💡</span><br><span class="under">
+  「世界でもっとも知られた、もっとも見られた、もっとも書かれた、もっとも歌われた、もっともパロディ作品が作られた美術作品」といわれています💃</span>
   </p>
   </div>
   
   <h2 class="next4 next">次の問題へ</h2>
 </div>
 
+<h1 class="oorx_i oorx_i4 oorx">不<br>正<br>解!</h1>
 <div class="answer4_x answers">
-  <h1 class="oorx">不正解！</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" >
+  <h1 class="inoorx">不正解！</h1>
+  <img class="a_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" >
   <p class="qoute">引用：<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"> wikipedia</a></p>
-  <h2>答えはレオナルド・ダ・ヴィンチです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  レオナルド・ダ・ヴィンチ<br>
-  [1452年 - 1519年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">
+  <span class="name">レオナルド・ダ・</span><span class="name">ヴィンチ</span><br>
+  [1452年 - 1519年]</span></p>
+  
+  </div>
   <p><span class="caption">出身地</span><br>
   イタリア🇮🇹</p>
   <p><span class="caption">タイトル</span><br>
@@ -251,8 +271,8 @@
   1503年 ~ 1506年</p>
   <p><span class="caption">画法</span><br>
   油彩🎨</p>
-  <p><span class="tips">Tips💡</span><br>
-  「世界でもっとも知られた、もっとも見られた、もっとも書かれた、もっとも歌われた、もっともパロディ作品が作られた美術作品」といわれています💃
+  <p><span class="tips">Tips💡</span><br><span class="under">
+  「世界でもっとも知られた、もっとも見られた、もっとも書かれた、もっとも歌われた、もっともパロディ作品が作られた美術作品」といわれています💃</span>
   </p>
   </div>
   
@@ -261,7 +281,7 @@
 
 <div class="q5 q_s">
 <h1 id="question_title">この作品の作者は？</h1>
-  <img src="http://www.artmuseum.jpn.org/guernica.jpg" >
+  <img class="q_img" src="http://www.artmuseum.jpn.org/guernica.jpg" >
 
   <button type="button" id="q5_1" class="choice5 choices">マティス</button>
   <button type="button" id="q5_2" class="choice5 choices">パブロ・ピカソ</button>
@@ -269,16 +289,19 @@
   <button type="button" id="q5_4" class="choice5 choices">エル・グレコ</button>
 </div>
 
+  <h1 class="oorx_c oorx_c5 oorx">正<br>解！</h1>
 <div class="answer5_o answers">
-  <h1 class="oorx">正解！</h1>
-  <img src="http://www.artmuseum.jpn.org/guernica.jpg" >
+  <h1 class="inoorx">正解！</h1>
+  <img class="a_img" src="http://www.artmuseum.jpn.org/guernica.jpg" >
   <p class="qoute">引用：<a href="http://www.artmuseum.jpn.org/guernica.jpg">西洋絵画美術館</a></p>
-  <h2>答えはパブロ・ピカソです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  パブロ・ディエゴ・ホセ・フランシスコ・デ・パウラ・ホアン・ネポムセーノ・チプリアーノ・デ・ラ・サンティシマ・トリニダード・ルイス・ピカソ<br>
-  [1881年 - 1973年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">
+  パブロ・(略)・ピカソ<br>
+  [1881年 - 1973年]</span></p>
+  </div>
+  
   <p><span class="caption">出身地</span><br>
   スペイン🇪🇸</p>
   <p><span class="caption">タイトル</span><br>
@@ -287,24 +310,27 @@
   1937年</p>
   <p><span class="caption">画法</span><br>
   油彩 キャンバス🎨</p>
-  <p><span class="tips">Tips💡</span><br>
-  ピカソの本名は、聖人や縁者の名前を並べた長いもので、画家として活動を始めたピカソは、はじめパブロ・ルイス・ピカソと名乗り、ある時期から父方の姓のルイスを省き、パブロ・ピカソと名乗るようになったそう😳
+  <p><span class="tips">Tips💡</span><br><span class="under">
+  ピカソの本名は、聖人や縁者の名前を並べた長いもので、画家として活動を始めたピカソは、はじめパブロ・ルイス・ピカソと名乗り、ある時期から父方の姓のルイスを省き、パブロ・ピカソと名乗るようになったそう😳</span>
   </p>
   </div>
   
   <h2 class="next5 next">次の問題へ</h2>
 </div>
 
+<h1 class="oorx_i oorx_i5 oorx">不<br>正<br>解!</h1>
 <div class="answer5_x answers">
-  <h1 class="oorx">不正解！</h1>
-  <img src="http://www.artmuseum.jpn.org/guernica.jpg" >
+  <h1 class="inoorx">不正解！</h1>
+  <img class="a_img" src="http://www.artmuseum.jpn.org/guernica.jpg" >
   <p class="qoute">引用：<a href="http://www.artmuseum.jpn.org/guernica.jpg">西洋絵画美術館</a></p>
-  <h2>答えはパブロ・ピカソです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  パブロ・ディエゴ・ホセ・フランシスコ・デ・パウラ・ホアン・ネポムセーノ・チプリアーノ・デ・ラ・サンティシマ・トリニダード・ルイス・ピカソ<br>
-  [1881年 - 1973年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">
+  パブロ・(略)・ピカソ<br>
+  [1881年 - 1973年]</span></p>
+  </div>
+  
   <p><span class="caption">出身地</span><br>
   スペイン🇪🇸</p>
   <p><span class="caption">タイトル</span><br>
@@ -313,8 +339,8 @@
   1937年</p>
   <p><span class="caption">画法</span><br>
   油彩 キャンバス🎨</p>
-  <p><span class="tips">Tips💡</span><br>
-  ピカソの本名は、聖人や縁者の名前を並べた長いもので、画家として活動を始めたピカソは、はじめパブロ・ルイス・ピカソと名乗り、ある時期から父方の姓のルイスを省き、パブロ・ピカソと名乗るようになったそう😳
+  <p><span class="tips">Tips💡</span><br><span class="under">
+  ピカソの本名は、聖人や縁者の名前を並べた長いもので、画家として活動を始めたピカソは、はじめパブロ・ルイス・ピカソと名乗り、ある時期から父方の姓のルイスを省き、パブロ・ピカソと名乗るようになったそう😳</span>
   </p>
   </div>
   
@@ -323,7 +349,7 @@
 
 <div class="q6 q_s">
 <h1 id="question_title">この作品の作者は？</h1>
-  <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/438008/1606693/restricted" >
+  <img class="q_img" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/438008/1606693/restricted" >
 
   <button type="button" id="q6_1" class="choice6 choices">エドガー・ドガ</button>
   <button type="button" id="q6_2" class="choice6 choices">クロード・モネ</button>
@@ -331,16 +357,19 @@
   <button type="button" id="q6_4" class="choice6 choices">エドゥアール・マネ</button>
 </div>
 
+  <h1 class="oorx_c oorx_c6 oorx">正<br>解！</h1>
 <div class="answer6_o answers">
-  <h1 class="oorx">正解！</h1>
-  <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/438008/1606693/restricted" >
+  <h1 class="inoorx">正解！</h1>
+  <img class="a_img" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/438008/1606693/restricted" >
   <p class="qoute"><a href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/438008/1606693/restricted">メトロポリタン美術館より</a></p>
-  <h2>答えはクロード・モネです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
+    <div class="namewrap">
+  <p><span class="namedate">
   クロード・モネ<br>
-  [1840年 - 1926年]</p>
+  [1840年 - 1926年]</span></p>
+  </div>
+  
   <p><span class="caption">出身地</span><br>
   フランス🇫🇷</p>
   <p><span class="caption">タイトル</span><br>
@@ -349,24 +378,27 @@
   1919年</p>
   <p><span class="caption">画法</span><br>
   油彩 キャンバス🎨</p>
-  <p><span class="tips">Tips💡</span><br>
-  モネの描いた代表作『印象・日の出』（1872年）は印象派の名前の由来になりました。ちなみに「睡蓮」🌱と名前のついている作品は他にもいくつかあります。
+  <p><span class="tips">Tips💡</span><br><span class="under">
+  モネの描いた代表作『印象・日の出』（1872年）は印象派の名前の由来になりました。ちなみに「睡蓮」🌱と名前のついている作品は他にもいくつかあります。</span>
   </p>
   </div>
   
   <h2 class="next6 next">次の問題へ</h2>
 </div>
 
+<h1 class="oorx_i oorx_i6 oorx">不<br>正<br>解!</h1>
 <div class="answer6_x answers">
-  <h1 class="oorx">不正解！</h1>
-  <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/438008/1606693/restricted" >
+  <h1 class="inoorx">不正解！</h1>
+  <img class="a_img" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/438008/1606693/restricted" >
   <p class="qoute"><a href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/438008/1606693/restricted">メトロポリタン美術館より</a></p>
-  <h2>答えはクロード・モネです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
+    <div class="namewrap">
+  <p><span class="namedate">
   クロード・モネ<br>
-  [1840年 - 1926年]</p>
+  [1840年 - 1926年]</span></p>
+  
+  </div>
   <p><span class="caption">出身地</span><br>
   フランス🇫🇷</p>
   <p><span class="caption">タイトル</span><br>
@@ -375,8 +407,8 @@
   1919年</p>
   <p><span class="caption">画法</span><br>
   油彩 キャンバス🎨</p>
-  <p><span class="tips">Tips💡</span><br>
-  モネの描いた代表作『印象・日の出』（1872年）は印象派の名前の由来になりました。ちなみに「睡蓮」🌱と名前のついている作品は他にもいくつかあります。
+  <p><span class="tips">Tips💡</span><br><span class="under">
+  モネの描いた代表作『印象・日の出』（1872年）は印象派の名前の由来になりました。ちなみに「睡蓮」🌱と名前のついている作品は他にもいくつかあります。</span>
   </p>
   </div>
   <h2 class="next6 next">次の問題へ</h2>
@@ -385,7 +417,7 @@
 <div class="q7 q_s">
 <h1 id="question_title">この作品が見つかった場所は？</h1>
   <p class="level">レベル：ちょっとむずかしい</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg" >
+  <img class="q_img" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg" >
 
   <button type="button" id="q7_1" class="choice7 choices">ラスコー洞窟</button>
   <button type="button" id="q7_2" class="choice7 choices">アルタミラ洞窟</button>
@@ -393,42 +425,50 @@
   <button type="button" id="q7_4" class="choice7 choices">エル・カルティージョ洞窟</button>
 </div>
 
+  <h1 class="oorx_c oorx_c7 oorx">正<br>解！</h1>
 <div class="answer7_o answers">
-  <h1 class="oorx">正解！</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg" >
+  <h1 class="inoorx">正解！</h1>
+  <img class="a_img" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg" >
   <p class="qoute">引用：<a href="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg">wikipediaより</a></p>
-  <h2>答えはラスコー洞窟です！</h2>
   
   <div class="tips_box">
+    <div class="namewrap">
+    <p><span class="namedate">答え：ラスコー洞窟</span></p>
+    </div>
+    
   <p><span class="caption">所在地</span><br>
   フランス🇫🇷</p>
   <p><span class="caption">制作年</span><br>
   約2万年前</p>
   <p><span class="caption">画法</span><br>
   フレスコ画(壁に漆喰を塗り、その漆喰がまだ生乾きの間に水または石灰水で溶いた顔料で描く技法)👩‍🎨</p>
-  <p>Tips<br>
-  かつては大勢の観客を洞窟内に受け入れていましたが、観客の吐く二酸化炭素により壁画が急速に劣化したため、1963年以降から洞窟は閉鎖さてしまいました🏔
+  <p>Tips💡<br><span class="under">
+  かつては大勢の観客を洞窟内に受け入れていましたが、観客の吐く二酸化炭素により壁画が急速に劣化したため、1963年以降から洞窟は閉鎖さてしまいました🏔</span>
   </p>
   </div>
   
   <h2 class="next7 next">次の問題へ</h2>
 </div>
 
+<h1 class="oorx_i oorx_i7 oorx">不<br>正<br>解!</h1>
 <div class="answer7_x answers">
-  <h1 class="oorx">不正解！</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg" >
+  <h1 class="inoorx">不正解！</h1>
+  <img class="a_img" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg" >
   <p class="qoute">引用：<a href="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg">wikipediaより</a></p>
-  <h2>答えはラスコー洞窟です！</h2>
   
   <div class="tips_box">
+    <div class="namewrap">
+    <p><span class="namedate">答え：ラスコー洞窟</span></p>
+    </div>
+    
   <p><span class="caption">所在地</span><br>
   フランス🇫🇷</p>
   <p><span class="caption">制作年</span><br>
   約2万年前</p>
   <p><span class="caption">画法</span><br>
   フレスコ画(壁に漆喰を塗り、その漆喰がまだ生乾きの間に水または石灰水で溶いた顔料で描く技法)👩‍🎨</p>
-  <p><span class="tips">Tips💡</span><br>
-  かつては大勢の観客を洞窟内に受け入れていたましたが、観客の吐く二酸化炭素により壁画が急速に劣化したため、1963年以降から洞窟は閉鎖されてしまいました⛰
+  <p><span class="tips">Tips💡</span><br><span class="under">
+  かつては大勢の観客を洞窟内に受け入れていたましたが、観客の吐く二酸化炭素により壁画が急速に劣化したため、1963年以降から洞窟は閉鎖されてしまいました⛰</span>
   </p>
   </div>
   
@@ -437,7 +477,7 @@
 
 <div class="q8 q_s">
 <h1 id="question_title">この作品の作者は？</h1>
-  <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/55433/134439/main-image" >
+  <img class="q_img" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/55433/134439/main-image" >
 
   <button type="button" id="q8_1" class="choice8 choices">織田 信長</button>
   <button type="button" id="q8_2" class="choice8 choices">夏目 漱石</button>
@@ -445,15 +485,18 @@
   <button type="button" id="q8_4" class="choice8 choices">歌川 広重</button>
 </div>
 
+  <h1 class="oorx_c oorx_c8 oorx">正<br>解！</h1>
 <div class="answer8_o answers">
-  <h1 class="oorx">正解！</h1>
-  <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/55433/134439/main-image" >
+  <h1 class="inoorx">正解！</h1>
+  <img class="a_img" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/55433/134439/main-image" >
   <p class="qoute"><a href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/55433/134439/main-image">メトロポリタン美術館より</a></p>
-  <h2>答えは歌川 広重です！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  歌川 広重 [1797年 - 1858年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">
+  歌川 広重 <br>[1797年 - 1858年]</span></p>
+  
+  </div>
   <p><span class="caption">出身地</span><br>
   日本🇯🇵Tokyo</p>
   <p><span class="caption">タイトル</span><br>
@@ -462,29 +505,31 @@
   1857年</p>
   <p><span class="caption">画法</span><br>
   版画📃</p>
-  <p><span class="tips">Tips💡</span><br>
-  本名は安藤重右衛門。かつては安藤広重（あんどう ひろしげ）とも呼ばれましたが、安藤は本姓・広重は号であり、両者を組み合わせて呼ぶのは不適切で、広重自身もそう名乗ったことはないそう👀
+  <p><span class="tips">Tips💡</span><br><span class="under">
+  本名は安藤重右衛門。<br>かつては安藤広重（あんどう ひろしげ）とも呼ばれましたが、安藤は本姓・広重は号であり、両者を組み合わせて呼ぶのは不適切で、広重自身もそう名乗ったことはないそう👀</span>
   </p>
   </div>
   
   <h2 class="next8 next">次の問題へ</h2>
 </div>
 
+<h1 class="oorx_i oorx_i8 oorx">不<br>正<br>解!</h1>
 <div class="answer8_x answers">
-  <h1 class="oorx">不正解！</h1>
-  <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/55433/134439/main-image" >
+  <h1 class="inoorx">不正解！</h1>
+  <img class="a_img" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/55433/134439/main-image" >
   <p class="qoute"><a href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/55433/134439/main-image">メトロポリタン美術館より</a></p>
-  <h2>答えは歌川 広重です！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>
-  歌川 広重 [1797年 - 1858年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">
+  歌川 広重 <br>[1797年 - 1858年]</span></p>
+  </div>
   <p><span class="caption">出身地</span><br>日本🇯🇵Tokyo</p>
   <p><span class="caption">タイトル</span><br>名所江戸百景　大はしあたけの夕立</p>
   <p><span class="caption">制作年</span><br>1857年</p>
   <p><span class="caption">画法</span><br>版画📃</p>
-  <p><span class="tips">Tips💡</span><br>本名は安藤重右衛門。<br>
-  かつては安藤広重（あんどう ひろしげ）とも呼ばれましたが、安藤は本姓・広重は号であり、両者を組み合わせて呼ぶのは不適切で、広重自身もそう名乗ったことはないそう👀
+  <p><span class="tips">Tips💡</span><br><span class="under">本名は安藤重右衛門。<br>
+  かつては安藤広重（あんどう ひろしげ）とも呼ばれましたが、安藤は本姓・広重は号であり、両者を組み合わせて呼ぶのは不適切で、広重自身もそう名乗ったことはないそう👀</span>
   </p>
   </div>
   
@@ -493,7 +538,7 @@
 
 <div class="q9 q_s">
 <h1 id="question_title">この作品の作者は？</h1>
-  <img src="https://image.jimcdn.com/app/cms/image/transf/none/path/s093251349da78e77/image/i962f660aef0faaa9/version/1419664955/image.jpg" >
+  <img class="q_img" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s093251349da78e77/image/i962f660aef0faaa9/version/1419664955/image.jpg" >
 
   <button type="button" id="q9_1" class="choice9 choices">ジュアン・ミロ</button>
   <button type="button" id="q9_2" class="choice9 choices">マルセル・デュシャン</button>
@@ -501,38 +546,42 @@
   <button type="button" id="q9_4" class="choice9 choices">モーリス・ユトリロ</button>
 </div>
 
+  <h1 class="oorx_c oorx_c9 oorx">正<br>解！</h1>
 <div class="answer9_o answers">
-  <h1 class="oorx">正解！</h1>
-  <img src="https://image.jimcdn.com/app/cms/image/transf/none/path/s093251349da78e77/image/i962f660aef0faaa9/version/1419664955/image.jpg" >
+  <h1 class="inoorx">正解！</h1>
+  <img class="a_img" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s093251349da78e77/image/i962f660aef0faaa9/version/1419664955/image.jpg" >
   <p class="qoute">引用：<a href="https://www.moma.org/collection/works/79018?classifications=any&date_begin=Pre-1850&date_end=2020&locale=ja&on_view=1&page=1&q=salvador+dali&with_images=1">Artpediaより</a></p>
-  <h2>答えはサルバドール・ダリです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>サルバドール・ダリ<br>[1904年 - 1989年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">サルバドール・ダリ<br>[1904年 - 1989年]</span></p>
+  </div>
   <p><span class="caption">出身地</span><br>スペイン🇪🇸</p>
   <p><span class="caption">タイトル</span><br>記憶の固執</p>
   <p><span class="caption">制作年</span><br>1954年</p>
   <p><span class="caption">画法</span><br>油彩、キャンバス🎨</p>
-  <p>Tips<br>1936年に制作した『茹でた隠元豆のある柔らかい構造（内乱の予感）』🌿がスペイン内戦を予言したと称し文字通り「自画自賛」。ほかにも自己顕示的で奇妙な言動は多くあり、講演会で潜水服🧑‍🚀を着て登壇したはいいが、酸素供給が上手くいかずに死にかけたことがあるそう。
+  <p>Tips💡<br><span class="under">1936年に制作した『茹でた隠元豆のある柔らかい構造（内乱の予感）』🌿がスペイン内戦を予言したと称し文字通り「自画自賛」。ほかにも自己顕示的で奇妙な言動は多くあり、講演会で潜水服🧑‍🚀を着て登壇したはいいが、酸素供給が上手くいかずに死にかけたことがあるそう。</span>
   </p>
   </div>
   
   <h2 class="next9 next">次の問題へ</h2>
 </div>
 
+<h1 class="oorx_i oorx_i9 oorx">不<br>正<br>解!</h1>
 <div class="answer9_x answers">
-  <h1 class="oorx">不正解！</h1>
-  <img src="https://image.jimcdn.com/app/cms/image/transf/none/path/s093251349da78e77/image/i962f660aef0faaa9/version/1419664955/image.jpg" >
+  <h1 class="inoorx">不正解！</h1>
+  <img class="a_img" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s093251349da78e77/image/i962f660aef0faaa9/version/1419664955/image.jpg" >
   <p class="qoute">引用：<a href="https://image.jimcdn.com/app/cms/image/transf/none/path/s093251349da78e77/image/i962f660aef0faaa9/version/1419664955/image.jpg">Artpediaより</a></p>
-  <h2>答えはサルバドール・ダリです！</h2>
   
   <div class="tips_box">
-  <p><span class="caption">作家名</span><br>サルバドール・ダリ<br>[1904年 - 1989年]</p>
+    <div class="namewrap">
+  <p><span class="namedate">サルバドール・ダリ<br>[1904年 - 1989年]</span></p>
+  </div>
   <p><span class="caption">出身地</span><br>スペイン🇪🇸</p>
   <p><span class="caption">タイトル</span><br>記憶の固執</p>
   <p><span class="caption">制作年</span><br>1954年</p>
   <p><span class="caption">画法</span><br>油彩、キャンバス🎨</p>
-  <p>Tips<br>1936年に制作した『茹でた隠元豆のある柔らかい構造（内乱の予感）』🌿がスペイン内戦を予言したと称し文字通り「自画自賛」。ほかにも自己顕示的で奇妙な言動は多くあり、講演会で潜水服🧑‍🚀を着て登壇したはいいが、酸素供給が上手くいかずに死にかけたことがあるそう。
+  <p>Tips💡<br><span class="under">1936年に制作した『茹でた隠元豆のある柔らかい構造（内乱の予感）』🌿がスペイン内戦を予言したと称し文字通り「自画自賛」。ほかにも自己顕示的で奇妙な言動は多くあり、講演会で潜水服🧑‍🚀を着て登壇したはいいが、酸素供給が上手くいかずに死にかけたことがあるそう。</span>
   </p>
   </div>
   
@@ -541,36 +590,43 @@
 
 <div class="q10 q_s">
 <h1 id="question_title">現在日本にはどのくらい美術館があるでしょうか？</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/National_Art_Center_Tokyo_2008.jpg/1280px-National_Art_Center_Tokyo_2008.jpg" >
+  <img class="q_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/National_Art_Center_Tokyo_2008.jpg/1280px-National_Art_Center_Tokyo_2008.jpg" >
 
   <button type="button" id="q10_1" class="choice10 choices">約5000個</button>
   <button type="button" id="q10_2" class="choice10 choices">約1000個</button>
   <button type="button" id="q10_3" class="choice10 choices">約500個</button>
   <button type="button" id="q10_4" class="choice10 choices">約100個</button>
 </div>
+
+  <h1 class="oorx_c oorx_c10 oorx">正<br>解！</h1>
 <div class="answer10_o answers">
-  <h1 class="oorx">正解！</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/National_Art_Center_Tokyo_2008.jpg/1280px-National_Art_Center_Tokyo_2008.jpg" >
+  <h1 class="inoorx">正解！</h1>
+  <img class="a_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/National_Art_Center_Tokyo_2008.jpg/1280px-National_Art_Center_Tokyo_2008.jpg" >
   <p class="qoute"><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/National_Art_Center_Tokyo_2008.jpg/1280px-National_Art_Center_Tokyo_2008.jpg">wikipediaより</a></p>
-  <h2>答えは約500個🏛です！</h2>
   
   <div class="tips_box">
-  <p><span class="tips">Tips💡</span><br>現在日本には453個の美術館が存在しています。(文部科学省 🏢<a href="https://www.mext.go.jp/content/20200313-mxt_chousa01-100014642_3-3.pdf"> 社会教育調査より</a>)
-    ちなみに日本で一番来場者数が多い美術館は問題の画像の美術館「国立新美術館」がトップで一年で<a href="http://sougouranking.net/ranking/nyujyou_museum/"> 約285万人</a>が来場するそうです。驚き👀</p>
+    <div class="namewrap">
+    <p><span class="namedate">答え：約500個🏛</span></p>
+    </div>
+  <p><span class="tips">Tips💡</span><br><span class="under">現在日本には453個の美術館が存在しています。(文部科学省 🏢<a href="https://www.mext.go.jp/content/20200313-mxt_chousa01-100014642_3-3.pdf"> 社会教育調査より</a>)
+    ちなみに日本で一番来場者数が多い美術館は問題の画像の美術館「国立新美術館」がトップで一年で<a href="http://sougouranking.net/ranking/nyujyou_museum/"> 約285万人</a>が来場するそうです。驚き👀</span></p>
   </div>
   
   <h2 class="next10 next">結果をみる📣</h2>
 </div>
 
+<h1 class="oorx_i oorx_i10 oorx">不<br>正<br>解!</h1>
 <div class="answer10_x answers">
-  <h1 class="oorx">不正解！</h1>
+  <h1 class="inoorx">不正解！</h1>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/National_Art_Center_Tokyo_2008.jpg/1280px-National_Art_Center_Tokyo_2008.jpg" >
   <p class="qoute"><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/National_Art_Center_Tokyo_2008.jpg/1280px-National_Art_Center_Tokyo_2008.jpg">wikipediaより</a></p>
-  <h2>答えは約500個🏛です！</h2>
   
   <div class="tips_box">
-  <p><span class="tips">Tips💡</span><br>現在日本には453個の美術館が存在しています。(文部科学省 🏢<a href="https://www.mext.go.jp/content/20200313-mxt_chousa01-100014642_3-3.pdf"> 社会教育調査より</a>)
-    ちなみに日本で一番来場者数が多い美術館は問題の画像の美術館「国立新美術館」がトップで一年で<a href="http://sougouranking.net/ranking/nyujyou_museum/"> 約285万人</a>が来場するそうです。驚き👀</p>
+    <div class="namewrap">
+    <p><span class="namedate">答え：約500個🏛</span></p>
+    </div>
+  <p><span class="tips">Tips💡</span><br><span class="under">現在日本には453個の美術館が存在しています。(文部科学省 🏢<a href="https://www.mext.go.jp/content/20200313-mxt_chousa01-100014642_3-3.pdf"> 社会教育調査より</a>)
+    ちなみに日本で一番来場者数が多い美術館は問題の画像の美術館「国立新美術館」がトップで一年で<a href="http://sougouranking.net/ranking/nyujyou_museum/"> 約285万人</a>が来場するそうです。驚き👀</span></p>
   </div>
   
   <h2 class="next10 next">結果をみる📣</h2>
@@ -581,9 +637,10 @@
           <p class="score">score：</p>
       <h1 id="score"></h1>
       <div class="result_tips">
-    <p><span class="tips">Tips:</span><span class="stayhome">＃おうち時間</span>🏠で美術を楽しむために国立新美術館など様々な美術館が展示風景を公開しています✨<br>
+    <p><span class="tips">Tips💡<br>
+    </span><span class="stayhome">＃おうち時間</span>🏠<span class="under">で美術を楽しむために国立新美術館など様々な美術館が展示風景を公開しています✨<br>
       また、Google Arts&Cultureなどでもストリートビューで全世界の博物館・美術館を訪れることもできるので「おうちで美術でもみたいな〜🤔」と考えている方は利用してみるといいかもしれません👀<br>
-      そのほか、メトロポリタン美術館(アメリカ・NY)などパブリックドメインになった作品のデータを公開している美術館も多くありますよ🔎</p>
+      そのほか、メトロポリタン美術館(アメリカ・NY)などパブリックドメインになった作品のデータを公開している美術館も多くありますよ🔎</span></p>
       </div>
     <a class="link_to_top" href="/">難易度選択画面に戻る↩︎</a>
 </div>

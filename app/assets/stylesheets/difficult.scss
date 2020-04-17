@@ -1,44 +1,14 @@
-@font-face {
-  font-family: 'Makinas-4-Flat';
-  src: url('./font/Makinas-4-Flat.woff') format('woff'),
-       url('./font/Makinas-4-Flat.ttf') format('truetype');
-}
 
 html {
-  background-color:#A2F193;
+    background-color:#FFF859;
 }
-
 #question_answer {
   font-family: 'arial' ;
   color: black ;
 }
 
-.stayhome {
-  font-family: 'Hiragino Maru Gothic ProN' ;
-  color: #ACB6E5;
-  background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.namewrap {
-  text-align:center;
-}
-
-.name {
-  display:inline-block;
-}
-
-.namedate {
-  font-family:'Makinas-4-Flat';
-  width:100%;
-  font-size:22px;
-  font-weight:bold;
-}
-
 .qoute {
   font-size: 13px ;
-  text-align:right;
 }
 
 .easy_all {
@@ -65,7 +35,7 @@ html {
 }
 
 @mixin choices {
-  font-family: 'Hiragino Maru Gothic ProN','arial' ;
+  font-family: 'arial' ;
   cursor: pointer;
   width: 100% ; 
   display: inline-block;
@@ -82,9 +52,6 @@ html {
 
 .caption {
   font-weight:bold;
-  font-family:'Makinas-4-Flat';
-  font-size:23px;
-  
 }
 
 .choice1 , .choice2 , .choices {
@@ -93,29 +60,12 @@ html {
 
 .oorx , .next {
   text-align: center;
-  display:none;
 }
-
-.oorx {
-  font-family:'Makinas-4-Flat';
-  margin-top:0;
-  font-size:170px;
-  color:white;
-}
-
-.inoorx{
-  font-family:'Makinas-4-Flat';
-  text-align:center;
-  font-size:50px;
-}
-
 .next {
   cursor: pointer;
-  font-family:'Makinas-4-Flat';
   width: 80% ;
   text-align: center;
-  margin-left:8%;
-  margin-right:auot;
+  margin-left:10%;
   padding:10px;
   display: inline-block;
   text-decoration: none;
@@ -132,13 +82,12 @@ html {
 
 .tips_box {
   padding:0 2%;
-  width:92%;
-  margin-left: 2%;
-  color:white;
+  width:90%;
+  margin:0 3%;
   background-color:#225B5D;
- font-family:'Hiragino Maru Gothic ProN';
+ 
   border: solid 2px green;
-  border-radius : 20px;
+  border-radius : 10px;
 }
 
 .level {
@@ -164,7 +113,7 @@ html {
   display: inline-block;
   color: #000000;
   border: solid 3px black;
-  border-radius: 15px;
+  border-radius: 5px;
   transition: .4s;
   font-size: 20px ;
   background-color: white ;
@@ -173,7 +122,6 @@ html {
 
 .result_level, .score {
   text-align: center;
-  font-size:35px;
 }
 
 .tips {
@@ -184,14 +132,12 @@ html {
 
 .result_tips {
   width:90%;
-  color:white;
   padding-left:2%;
   padding-right:2%;
   margin-left:3%;
   margin-bottom:5px;
   text-align: left;
-  border-radius: 20px ;
-  background-color:#225B5D;
+  border-radius: 5px ;
   border: solid 2px #39e469;
 }
 
@@ -217,6 +163,7 @@ html {
 
 .answers {
   display: none;
-  width:100%;
+  width:90%;
+  margin:5%;
   color:white;
 }
