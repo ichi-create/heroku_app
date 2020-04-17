@@ -1,14 +1,49 @@
+@font-face {
+  font-family: 'Makinas-4-Flat';
+  src: font-url('Makinas-4-Flat.woff') format('woff'),
+       font-url('Makinas-4-Flat.ttf') format('truetype');
+}
 
 html {
-    background-color:#FFF859;
+  background-color:#A2F193;
 }
+
+#question_title {
+  font-family:'arial';
+  color:white;
+}
+
 #question_answer {
-  font-family: 'arial' ;
+  font-family: 'sans-serif','arial' ;
   color: black ;
+}
+
+.stayhome {
+  font-family: 'Hiragino Maru Gothic ProN' ;
+  color: #ACB6E5;
+  background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.namewrap {
+  text-align:center;
+}
+
+.name {
+  display:inline-block;
+}
+
+.namedate {
+  font-family:'Makinas-4-Flat','sans-serif';
+  width:100%;
+  font-size:22px;
+  font-weight:bold;
 }
 
 .qoute {
   font-size: 13px ;
+  text-align:right;
 }
 
 .easy_all {
@@ -35,7 +70,7 @@ html {
 }
 
 @mixin choices {
-  font-family: 'arial' ;
+  font-family: 'Hiragino Maru Gothic ProN','arial' ;
   cursor: pointer;
   width: 100% ; 
   display: inline-block;
@@ -52,6 +87,9 @@ html {
 
 .caption {
   font-weight:bold;
+  font-family:'Makinas-4-Flat','sans-serif';
+  font-size:23px;
+  
 }
 
 .choice1 , .choice2 , .choices {
@@ -60,12 +98,29 @@ html {
 
 .oorx , .next {
   text-align: center;
+  display:none;
 }
+
+.oorx {
+  font-family:'Makinas-4-Flat','sans-serif';
+  margin-top:0;
+  font-size:170px;
+  color:white;
+}
+
+.inoorx{
+  font-family:'Makinas-4-Flat','sans-serif';
+  text-align:center;
+  font-size:50px;
+}
+
 .next {
   cursor: pointer;
+  font-family:'Makinas-4-Flat','sans-serif';
   width: 80% ;
   text-align: center;
-  margin-left:10%;
+  margin-left:8%;
+  margin-right:auot;
   padding:10px;
   display: inline-block;
   text-decoration: none;
@@ -82,16 +137,17 @@ html {
 
 .tips_box {
   padding:0 2%;
-  width:90%;
-  margin:0 3%;
+  width:92%;
+  margin-left: 2%;
+  color:white;
   background-color:#225B5D;
- 
+ font-family:'Hiragino Maru Gothic ProN','sans-serif';
   border: solid 2px green;
-  border-radius : 10px;
+  border-radius : 20px;
 }
 
 .level {
-  font-family: 'Hiragino Maru Gothic ProN' ;
+  font-family: 'Hiragino Maru Gothic ProN','sans-serif' ;
   color: #9442dd ;
 }
 
@@ -113,7 +169,7 @@ html {
   display: inline-block;
   color: #000000;
   border: solid 3px black;
-  border-radius: 5px;
+  border-radius: 15px;
   transition: .4s;
   font-size: 20px ;
   background-color: white ;
@@ -122,22 +178,24 @@ html {
 
 .result_level, .score {
   text-align: center;
+  font-size:35px;
 }
 
 .tips {
-  font-family:'Osaka-Mono';
+  font-family:'Osaka-Mono','sans-serif';
   font: bold ;
   font-size: 20px ;
 }
 
 .result_tips {
   width:90%;
-  padding-left:2%;
-  padding-right:2%;
-  margin-left:3%;
+  color:white;
+  padding:4%;
+  margin-left:1%;
   margin-bottom:5px;
   text-align: left;
-  border-radius: 5px ;
+  border-radius: 20px ;
+  background-color:#225B5D;
   border: solid 2px #39e469;
 }
 
@@ -163,7 +221,6 @@ html {
 
 .answers {
   display: none;
-  width:90%;
-  margin:5%;
+  width:100%;
   color:white;
 }
