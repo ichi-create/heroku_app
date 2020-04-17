@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Makinas-4-Flat';
-  src: url('Makinas-4-Flat.woff') format('woff'),
-       url('Makinas-4-Flat.ttf') format('truetype');
+  src: font-url('Makinas-4-Flat.woff') format('woff'),
+       font-url('Makinas-4-Flat.ttf') format('truetype');
 }
 
 html {
