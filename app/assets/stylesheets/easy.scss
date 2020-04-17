@@ -13,7 +13,7 @@ html {
 }
 
 #question_answer {
-  font-family: 'arial' ;
+  font-family: 'sans-serif','arial' ;
   color: black ;
 }
 
@@ -34,7 +34,7 @@ html {
 }
 
 .namedate {
-  font-family:'Makinas-4-Flat';
+  font-family:'Makinas-4-Flat','sans-serif';
   width:100%;
   font-size:22px;
   font-weight:bold;
@@ -86,7 +86,7 @@ html {
 
 .caption {
   font-weight:bold;
-  font-family:'Makinas-4-Flat';
+  font-family:'Makinas-4-Flat','sans-serif';
   font-size:23px;
   
 }
@@ -101,21 +101,21 @@ html {
 }
 
 .oorx {
-  font-family:'Makinas-4-Flat';
+  font-family:'Makinas-4-Flat','sans-serif';
   margin-top:0;
   font-size:170px;
   color:white;
 }
 
 .inoorx{
-  font-family:'Makinas-4-Flat';
+  font-family:'Makinas-4-Flat','sans-serif';
   text-align:center;
   font-size:50px;
 }
 
 .next {
   cursor: pointer;
-  font-family:'Makinas-4-Flat';
+  font-family:'Makinas-4-Flat','sans-serif';
   width: 80% ;
   text-align: center;
   margin-left:8%;
@@ -140,13 +140,13 @@ html {
   margin-left: 2%;
   color:white;
   background-color:#225B5D;
- font-family:'Hiragino Maru Gothic ProN';
+ font-family:'Hiragino Maru Gothic ProN','sans-serif';
   border: solid 2px green;
   border-radius : 20px;
 }
 
 .level {
-  font-family: 'Hiragino Maru Gothic ProN' ;
+  font-family: 'Hiragino Maru Gothic ProN','sans-serif' ;
   color: #9442dd ;
 }
 
@@ -181,7 +181,7 @@ html {
 }
 
 .tips {
-  font-family:'Osaka-Mono';
+  font-family:'Osaka-Mono','sans-serif';
   font: bold ;
   font-size: 20px ;
 }

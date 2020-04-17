@@ -16,3 +16,4 @@ Rails.application.config.assets.precompile += %w( easy.js easy.css )
 Rails.application.config.assets.precompile += %w( nomal.js nomal.css)
 Rails.application.config.assets.precompile += %w( difficult.js difficult.css)
 Rails.application.config.assets.precompile += %w( home.js home.css)
+Rails.application.config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
