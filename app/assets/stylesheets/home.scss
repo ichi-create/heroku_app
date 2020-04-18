@@ -2,11 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .top_c , .copy {
-  font-family: 'arial' ;
+  font-family: 'Yu Gothic';
 }
 
 html {
-  background-color:#FF88D6;
+  background-color:#010509;
+  background-image:url("SSSS_A4_TEMPLATE_1.png") , url("SSSS_A4_TEMPLATE_2.png") ;
+  background-size:100%;
+  background-position: 0 0%, 0 bottom;
+  background-repeat: no-repeat; 
 }
 
 .top_a {
@@ -15,49 +19,48 @@ html {
 
 .top {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 60px;
+  padding-top: 15px;
+  padding-bottom: 150px;
   //color:#333333;//
   color:white;
+  font-family:arial;
 }
 
 .difficult {
     height: 30%;                  /* 高さ指定 */
     width: 50%;
-    margin: 0 auto;
+    margin: 10% auto;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 30px;
-    color: white ;
+    color: black ;
     padding: 7px 20px;
-    background-color: #FFF859 ;
+    background-color: white ;
     //border-bottom: solid 5px #765800;//
 }
 
-.botton:active {
-  /*ボタンを押したとき*/
+/*.botton:active {
   -webkit-transform: translateY(4px);
-  transform: translateY(4px);/*下に動く*/
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   border-bottom: none;
-}
+}*/
 
 .p1 {
   text-align: center;
   margin-bottom: 40px;
-  //color:#333333;//
   color:white;
+  //color:white;//
 }
 .nomal {
     height:30%;                  /* 高さ指定 */
     width: 50%;
-    margin: 0 auto;
+    margin: 10% auto;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 30px;
-    color: white ;
+    color: black ;
     padding: 7px 20px;
-    background-color: #00E2FF ;
+    background-color: white ;
     //border-bottom: solid 5px #3f485d;//
 }
 .p2 {
@@ -69,13 +72,13 @@ html {
 .easy {
   height:30%;                  /* 高さ指定 */
   width: 50%;
-  margin: 0 auto;
+  margin: 10% auto;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 30px;
-  color: white ;
+  color: black ;
   padding: 7px 20px;
-  background-color: #3EFF2E ;
+  background-color: white ;
   //border-bottom: solid 5px #45554b;//
 }
 .p3 {
@@ -90,27 +93,20 @@ body {
   margin:0;
 }
 
-.copy_link {
-  
-}
-
 .null {
   margin: 70px ;
 }
 
 .copy {
-  margin-top:100px;
-  margin-bottom:100px;
+  width:100%;
+  margin-top:70px;
+  margin-bottom:240px;
   text-align: center;
   font-size: 17px;
-  //color:#333333;//
   color:white;
 }
 
 .stayhome {
   font-family: 'Hiragino Maru Gothic ProN' ;
   color: #ACB6E5;
-  background: -webkit-linear-gradient(0deg, #6475FF, #86D8FD);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
