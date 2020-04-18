@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color:#93FF00;
+  background-color:#FD86CB;
   ////
 }
 
@@ -82,7 +82,7 @@ html {
   padding: 0.3em 1em;
   text-decoration: none;
   color: #000000;
-  border: solid 3px #67c5ff;
+  //border: solid 3px #67c5ff;//
   border-radius: 20px;
   transition: .4s;
   font-size: 23px ;
@@ -159,6 +159,7 @@ html {
 .score {
   font-size: 30px ;
 }
+
 #score {
   font-size: 90px ;
   color: #5057FF ;
@@ -192,7 +193,7 @@ html {
   text-align: center;
   font-size:35px;
   color:white;
-  font-family:arial;
+  font-family:'arial';
 }
 
 .tips {
