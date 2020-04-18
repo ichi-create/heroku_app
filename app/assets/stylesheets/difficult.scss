@@ -5,7 +5,12 @@
 }
 
 html {
-  background-color:#A2F193;
+  background-color:#93FF00;
+  ////
+}
+
+.urlin {
+  color:#C1D2FF;
 }
 
 #question_title {
@@ -78,9 +83,9 @@ html {
   text-decoration: none;
   color: #000000;
   border: solid 3px #67c5ff;
-  border-radius: 24px;
+  border-radius: 20px;
   transition: .4s;
-  font-size: 25px ;
+  font-size: 23px ;
   background-color: white ;
   margin-bottom:5px;
 }
@@ -128,7 +133,7 @@ html {
   transition: .4s;
   font-size: 30px ;
   color:white;
-  background-color: #616621 ;
+  background-color:#00818A ;
 }
 
 .under {
@@ -140,9 +145,9 @@ html {
   width:92%;
   margin-left: 2%;
   color:white;
-  background-color:#225B5D;
+  background-color:#2ABBDA;
  font-family:'Hiragino Maru Gothic ProN','sans-serif';
-  border: solid 2px green;
+  border: solid 2px #005792;
   border-radius : 20px;
 }
 
@@ -161,24 +166,32 @@ html {
 
 .link_to_top {
   text-decoration: none;
-  width: 90% ;
-  padding:2%;
+  width: 80% ;
+  padding-left:2%;
+  padding-right:2%;
+  padding-top:4%;
+  padding-bottom:4%;
   text-align: center;
-  margin-left:2%;
+  margin-left:8%;
   margin-bottom:30px;
   display: inline-block;
-  color: #000000;
-  border: solid 3px black;
-  border-radius: 15px;
+  color: white;
+  border-radius: 20px;
   transition: .4s;
   font-size: 20px ;
-  background-color: white ;
+  font-family:'sans-serif';
+  background-color: #00818A ;
   
+}
+
+.jobanni {
+  font-size:20px;
 }
 
 .result_level, .score {
   text-align: center;
   font-size:35px;
+  color:white;
 }
 
 .tips {
@@ -192,7 +205,7 @@ html {
   color:white;
   padding:4%;
   margin-left:1%;
-  margin-bottom:5px;
+  margin-bottom:10px;
   text-align: left;
   border-radius: 20px ;
   background-color:#225B5D;

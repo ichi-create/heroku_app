@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color:#A2F193;
+  background-color:#8AE1FC;
 }
 
 #question_title {
@@ -70,7 +70,7 @@ html {
 }
 
 @mixin choices {
-  font-family: 'Hiragino Maru Gothic ProN','arial' ;
+  font-family: 'arial' ;
   cursor: pointer;
   width: 100% ; 
   display: inline-block;
@@ -78,11 +78,15 @@ html {
   text-decoration: none;
   color: #000000;
   border: solid 3px #67c5ff;
-  border-radius: 24px;
+  border-radius: 20px;
   transition: .4s;
-  font-size: 25px ;
+  font-size: 23px ;
   background-color: white ;
   margin-bottom:5px;
+}
+
+.sub_title {
+  font-size:13px;
 }
 
 .caption {
@@ -128,7 +132,7 @@ html {
   transition: .4s;
   font-size: 30px ;
   color:white;
-  background-color: #616621 ;
+  background-color: #007AFF ;
 }
 
 .under {
@@ -161,24 +165,28 @@ html {
 
 .link_to_top {
   text-decoration: none;
-  width: 90% ;
-  padding:2%;
+  width: 80% ;
+  padding-left:2%;
+  padding-right:2%;
+  padding-top:4%;
+  padding-bottom:4%;
   text-align: center;
-  margin-left:2%;
+  margin-left:8%;
   margin-bottom:30px;
   display: inline-block;
-  color: #000000;
-  border: solid 3px black;
-  border-radius: 15px;
+  color: white;
+  border-radius: 20px;
   transition: .4s;
   font-size: 20px ;
-  background-color: white ;
+  font-family:'sans-serif';
+  background-color: #007AFF ;
   
 }
 
 .result_level, .score {
   text-align: center;
   font-size:35px;
+  color:white;
 }
 
 .tips {
@@ -192,7 +200,7 @@ html {
   color:white;
   padding:3%;
   margin-left:1%;
-  margin-bottom:5px;
+  margin-bottom:10px;
   text-align: left;
   border-radius: 20px ;
   background-color:#225B5D;
